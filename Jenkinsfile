@@ -1,6 +1,6 @@
 node('muni'){
 stage('echo'){
-  git 'git@github.com:hemalatharagam/muni.git'
+  sh 'git clone git@github.com:hemalatharagam/muni.git'
 }
 
 }
